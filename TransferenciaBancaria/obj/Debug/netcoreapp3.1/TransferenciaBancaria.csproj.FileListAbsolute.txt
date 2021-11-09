@@ -1,0 +1,14 @@
+D:\Stephany\Repositorio\TransferenciaBancaria\TransferenciaBancaria\bin\Debug\netcoreapp3.1\TransferenciaBancaria.exe
+D:\Stephany\Repositorio\TransferenciaBancaria\TransferenciaBancaria\bin\Debug\netcoreapp3.1\TransferenciaBancaria.deps.json
+D:\Stephany\Repositorio\TransferenciaBancaria\TransferenciaBancaria\bin\Debug\netcoreapp3.1\TransferenciaBancaria.runtimeconfig.json
+D:\Stephany\Repositorio\TransferenciaBancaria\TransferenciaBancaria\bin\Debug\netcoreapp3.1\TransferenciaBancaria.runtimeconfig.dev.json
+D:\Stephany\Repositorio\TransferenciaBancaria\TransferenciaBancaria\bin\Debug\netcoreapp3.1\TransferenciaBancaria.dll
+D:\Stephany\Repositorio\TransferenciaBancaria\TransferenciaBancaria\bin\Debug\netcoreapp3.1\TransferenciaBancaria.pdb
+D:\Stephany\Repositorio\TransferenciaBancaria\TransferenciaBancaria\obj\Debug\netcoreapp3.1\TransferenciaBancaria.csproj.AssemblyReference.cache
+D:\Stephany\Repositorio\TransferenciaBancaria\TransferenciaBancaria\obj\Debug\netcoreapp3.1\TransferenciaBancaria.GeneratedMSBuildEditorConfig.editorconfig
+D:\Stephany\Repositorio\TransferenciaBancaria\TransferenciaBancaria\obj\Debug\netcoreapp3.1\TransferenciaBancaria.AssemblyInfoInputs.cache
+D:\Stephany\Repositorio\TransferenciaBancaria\TransferenciaBancaria\obj\Debug\netcoreapp3.1\TransferenciaBancaria.AssemblyInfo.cs
+D:\Stephany\Repositorio\TransferenciaBancaria\TransferenciaBancaria\obj\Debug\netcoreapp3.1\TransferenciaBancaria.csproj.CoreCompileInputs.cache
+D:\Stephany\Repositorio\TransferenciaBancaria\TransferenciaBancaria\obj\Debug\netcoreapp3.1\TransferenciaBancaria.dll
+D:\Stephany\Repositorio\TransferenciaBancaria\TransferenciaBancaria\obj\Debug\netcoreapp3.1\TransferenciaBancaria.pdb
+D:\Stephany\Repositorio\TransferenciaBancaria\TransferenciaBancaria\obj\Debug\netcoreapp3.1\TransferenciaBancaria.genruntimeconfig.cache

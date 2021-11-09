@@ -6,7 +6,7 @@ namespace TransferenciaBancaria
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            
         }
     }
 }
