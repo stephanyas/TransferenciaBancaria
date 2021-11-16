@@ -21,7 +21,7 @@ namespace TransferenciaBancaria
         }
 
 
-        public bool Sacar(double valorSaque)
+        public bool SacarConta(double valorSaque)
         {
             //validação de saldo
             if (this.Saldo - valorSaque < (this.ChequeEspecial * -1))
@@ -36,7 +36,7 @@ namespace TransferenciaBancaria
             return true;
         }
 
-        public void Deposito(double valorDeposito)
+        public void DepositoConta(double valorDeposito)
         {
             this.Saldo += valorDeposito;
             //é a mesma coisa de this.saldo = this.saldo + valorDeposito
@@ -44,11 +44,11 @@ namespace TransferenciaBancaria
             Console.WriteLine("Saldo atual da conta de {0} é {1}", this.Nome, this.Saldo);
         }
 
-        public void Transferencia(double valorTransferencia, Conta contaDestino)
+        public void TransferenciaConta(double valorTransferencia, Conta contaDestino)
         {
-            if (this.Sacar(valorTransferencia))
+            if (this.SacarConta(valorTransferencia)) //chama o metodo sacar para tirar da conta origem
             {
-                contaDestino.Deposito(valorTransferencia);
+                contaDestino.DepositoConta(valorTransferencia); // e coloca o valor na conta destino
             }
         }
 
@@ -57,10 +57,10 @@ namespace TransferenciaBancaria
             //esse método ele retorna uma string e sobrescreve da classe mãe, ele herda as caracteristicas(atributos)
             //geralmente e usado para saber o que esta acontecendo na aplicação, tipo um log
             string retorno = "";
-            retorno += "TipoConta " + this.TipoConta + " | ";
-            retorno += "Nome " + this.Nome + " | ";
-            retorno += "Saldo " + this.Saldo + " | ";
-            retorno += "Cheque Especial " + this.ChequeEspecial;
+            retorno += "TipoConta: " + this.TipoConta + " | ";
+            retorno += "Nome: " + this.Nome + " | ";
+            retorno += "Saldo: " + this.Saldo + " | ";
+            retorno += "Cheque Especial: " + this.ChequeEspecial;
             return retorno;
         }
     }
