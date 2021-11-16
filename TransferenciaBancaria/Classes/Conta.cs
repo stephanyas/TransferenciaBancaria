@@ -54,13 +54,14 @@ namespace TransferenciaBancaria
 
         public override string ToString()
         {
+            //esse método ele retorna uma string e sobrescreve da classe mãe, ele herda as caracteristicas(atributos)
+            //geralmente e usado para saber o que esta acontecendo na aplicação, tipo um log
             string retorno = "";
             retorno += "TipoConta " + this.TipoConta + " | ";
             retorno += "Nome " + this.Nome + " | ";
             retorno += "Saldo " + this.Saldo + " | ";
-            retorno += "Cheque Especial " + this.ChequeEspecial + " | ";
+            retorno += "Cheque Especial " + this.ChequeEspecial;
             return retorno;
         }
-
     }
 }
