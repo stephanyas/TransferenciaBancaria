@@ -108,8 +108,7 @@ namespace TransferenciaBancaria
             double valorTransferido = double.Parse(Console.ReadLine());
 
             //apos receber os indices das contas e o valor a ser transferido
-            //ele pega os indices chama o metodo transferir conta que recebe
-            //o valor da transferencia e o indice da conta destino e saca o valor            
+            //ele pega os indices chama o metodo transferir para a conta origem e saca depois pega o valor e deposita na conta destino      
             listaConta[indiceContaOrigem].TransferenciaConta(valorTransferido, listaConta[indiceContaDestino]); 
         }
 
